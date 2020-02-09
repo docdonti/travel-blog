@@ -23,7 +23,14 @@ collections:
         name: authors
         file: _data/authors.yml
         fields:
-          - { label: Name, name: name, widget: string }
+          - label: Name
+            name: nikita
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string, hint: "Full Name" }
+              - { label: Picture, name: picture, widget: image }
+              - { label: Bio, name: bio, widget: string }
+              - { label: Facebook, name: facebook, widget: string }
           # - {label: Intro, name: intro, widget: markdown}
           # - label: Team
           #   name: team
