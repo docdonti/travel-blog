@@ -16,3 +16,26 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+- name: 'authors'
+  label: 'Authors'
+  files: 
+    - label: 'Authors'
+      name: authors
+      file: _data/authors.yml
+      fields:
+        - {label: Name, name: name, widget: string}
+        # - {label: Intro, name: intro, widget: markdown}
+        # - label: Team
+        #   name: team
+        #   widget: list
+            
+  # folder: '_data/'
+  # create: true
+  # editor:
+  #   preview: false
+  # fields:
+  #   - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+  #   - { label: 'Short Name', name: 'name', widget: 'string' }
+  #   - { label: 'Diplay Name', name: 'display_name', widget: 'string' }
+  #   - { label: 'Position', name: 'position', widget: 'string' }
+  #   - { label: 'Body', name: 'body', widget: 'markdown' }
