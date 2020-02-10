@@ -1,6 +1,6 @@
 nikita:
   bio: The professional publishing platform
-  cover: false
+  cover: /assets/images/nikitacover.jpg
   display_name: Nikita Donti
   facebook: ghost
   location: 'Wilmington, Delaware'
