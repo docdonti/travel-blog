@@ -59,6 +59,8 @@ collections:
             name: nikita
             widget: object
             fields:
+              - { label: Name, name: name, widget: hidden, default: nikita }
+              - { label: Name, name: username, widget: hidden, default: nikita }
               - {
                   label: Name,
                   name: display_name,
@@ -68,7 +70,12 @@ collections:
               - { label: Picture, name: picture, widget: image }
               - { label: Bio, name: bio, widget: string }
               - { label: Facebook, name: facebook, widget: string }
-              - { label: Cover Photo, name: cover, widget: image }
+              - {
+                  label: Cover Photo,
+                  name: cover,
+                  widget: image,
+                  default: False,
+                }
               - {
                   label: Location,
                   name: location,
