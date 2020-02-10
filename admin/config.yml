@@ -4,6 +4,18 @@ backend:
 media_folder: assets/images
 
 collections:
+  - name: "Site"
+    label: Site
+    files:
+      - label: "Information"
+        name: "config"
+        file: "_config.yml"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: string }
+          - { label: "Cover Photo", name: "cover", widget: "image" }
+          - { label: "Logo Photo", name: "logo", widget: "image" }
+
   - name: "blog"
     label: "Blog"
     folder: "_posts/"
