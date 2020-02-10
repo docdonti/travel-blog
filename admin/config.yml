@@ -12,10 +12,30 @@ collections:
     editor:
       preview: false
     fields:
+      # Metadata
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - {
+          label: "Navigation",
+          name: "navigation",
+          widget: "hidden",
+          default: True,
+        }
+      - {
+          label: "Class",
+          name: "class",
+          widget: "hidden",
+          default: "post-template",
+        }
+      - {
+          label: "Sub Class",
+          name: "subclass",
+          widget: "hidden",
+          default: "post",
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Cover", name: "cover", widget: "image" }
   - name: "authors"
     label: "Authors"
     files:
@@ -24,8 +44,8 @@ collections:
         file: _data/authors.yml
         fields:
           - label: Name
-            name: nikita
-            widget: list
+            name: authors
+            widget: object
             fields:
               - { label: Name, name: name, widget: string, hint: "Full Name" }
               - { label: Picture, name: picture, widget: image }
