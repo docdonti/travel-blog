@@ -57,7 +57,7 @@ collections:
         fields:
           - label: Nikita
             name: nikita
-            widget: list
+            widget: object
             fields:
               - { label: Name, name: name, widget: string, hint: "Full Name" }
               - { label: Picture, name: picture, widget: image }
