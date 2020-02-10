@@ -55,9 +55,9 @@ collections:
         name: authors
         file: _data/authors.yml
         fields:
-          - label: Name
-            name: authors
-            widget: object
+          - label: Nikita
+            name: nikita
+            widget: list
             fields:
               - { label: Name, name: name, widget: string, hint: "Full Name" }
               - { label: Picture, name: picture, widget: image }
