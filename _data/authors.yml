@@ -5,10 +5,10 @@ nikita:
   url_full: http://jekyller.github.io/jasper2/
   url: jekyller.github.io/jasper2
   bio: The professional publishing platform
-  picture: /assets/images/nikitablog.jpg
+  picture: assets/images/nikitablog.jpg
   facebook: ghost
   twitter: tryghost
-  cover: /assets/images/nikitacover.jpg
+  cover: assets/images/nikitacover.jpg
   location: "Wilmington, Delaware"
 hannah:
   username: hannah
